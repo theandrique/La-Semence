@@ -1,0 +1,139 @@
+body{
+    margin:0;
+}
+.main-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #006F3F;
+    padding: 10px;
+    position: sticky;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.nav-links a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+}
+.header-btn a{
+    color:white;
+    margin: 30px;
+    text-decoration: none;
+}
+.nav-links :hover{
+    text-decoration: underline;
+    color:rgb(14, 191, 255);
+}
+.header-btn a:hover{
+     text-decoration: underline;
+     color:rgb(14, 191, 255);
+}
+.not{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.call{
+    width:1260px;
+    height: 700px;
+}
+.para{
+    font-size:20px;
+    text-align: center;
+}
+.links{
+    display:flex;
+    justify-content: space-between;
+}
+.whatsapp{
+    width: 50px;
+    height: 50px;
+    margin:10px 300px;
+}
+.gmail{
+    width: 90px;
+    height: 90px;
+    margin:0 300px;
+}
+.para1{
+    font-size:16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer{
+    background:#4C4C4C;
+    position:relative;
+    top:10px;
+    padding: 80px;
+}
+.foot{
+    width: 90px;
+    height:90px;
+       }
+.list a{
+    color:white;
+    text-decoration:none;
+}
+.ser{
+    position:absolute;
+    top: 70px;
+    left: 200px;
+}
+.ins{
+    position:absolute;
+    top: 120px;
+    left: 200px;
+}
+.abo{
+    position:absolute;
+    top: 170px;
+    left: 200px;
+}
+.con{
+    position:absolute;
+    top: 220px;
+    left: 200px;
+}
+.whats{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.youts{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.faces{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.tiks{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.intas{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.twits{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.logoss{
+    position:absolute;
+    top:80px;
+    left:600px;
+   }
+.list  :hover{
+    color:rgb(84, 84, 255);
+    text-decoration: underline;
+}
