@@ -32,42 +32,132 @@ body{
      text-decoration: underline;
      color:rgb(14, 191, 255);
 }
-.not{
-    text-align: center;
+.about{
+    text-align:center;
+    
     font-size: 30px;
-    margin-top: 50px;
+    position:relative;
+    top: 10px;
 }
-.call{
-    width:1260px;
-    height: 700px;
+.rond{
+    position: absolute;
+    top:200px;
+    width:400px;
+    width:700px;
+    border-radius:0px 900px 900px 0px;
 }
-.para{
-    font-size:20px;
-    text-align: center;
-}
-.links{
-    display:flex;
-    justify-content: space-between;
-}
-.whatsapp{
-    width: 50px;
-    height: 50px;
-    margin:10px 300px;
-}
-.gmail{
-    width: 90px;
-    height: 90px;
-    margin:0 300px;
-}
-.para1{
+.padre{
+    position:absolute;
     font-size:16px;
-    text-align: center;
-    margin-bottom: 50px;
+    top:200px;
+    left: 700px;
+}
+.padres{
+    position:absolute;
+    font-size:16px;
+    top:300px;
+    left: 730px;
+}
+.padrese{
+    position:absolute;
+    font-size:16px;
+    top:400px;
+    left: 730px;
+}
+.padress{
+    position:absolute;
+    font-size:16px;
+    top:500px;
+    left: 700px;
+}
+.yout{
+    width:70px;
+    height:70px;
+    border:1px solid black;
+    border-radius:40px;
+}
+.face{
+    width:70px;
+    height:70px;
+    border:1px solid black;
+    border-radius:40px;
+}
+
+.tik{
+    width:70px;
+    height:70px;
+    border:1px solid black;
+    border-radius:40px;
+}
+
+.inta{
+    width:70px;
+    height:70px;
+    border:1px solid black;
+    border-radius:40px;
+}
+
+.twit{
+    width:70px;
+    height:70px;
+    border:1px solid black;
+    border-radius:40px;
+}
+.logos{
+    position:absolute;
+    top:600px;
+    left:25px;
+    display: flex;
+    gap: 20px;
+}
+.tes{
+    font-size:20px;
+    position:absolute;
+    top:700px;
+    left:500px;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position:absolute;
+  top:800px;
+    left:400px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+button {
+  background-color: #006F3F;
+  color: white;
+  padding: 12px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 .footer{
     background:#4C4C4C;
     position:relative;
-    top:10px;
+    top:1000px;
     padding: 80px;
 }
 .foot{
