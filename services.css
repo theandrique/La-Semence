@@ -1,0 +1,303 @@
+body{
+    margin:0;
+}
+.main-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #006F3F;
+    padding: 10px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.nav-links a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+}
+.header-btn a{
+    color:white;
+    margin: 30px;
+    text-decoration: none;
+}
+.nav-links :hover{
+    text-decoration: underline;
+    color:rgb(14, 191, 255);
+}
+.header-btn a:hover{
+     text-decoration: underline;
+     color:rgb(14, 191, 255);
+}
+P{
+    text-align: center;
+    font-size:20px;
+    }
+h2{
+    font-size:16px;
+    text-align:center;
+}
+.tableau1{
+background:rgb(239, 239, 239);
+box-shadow: rgb(142, 142, 142) 10px 10px 10px 10px;
+border-radius:10px;
+width: 200px;
+height: 200px;
+position:relative;
+left: 300px;
+top:30px;
+}
+.i1{
+width:50px;
+height: 50px;
+border-radius:30px;
+margin:10px;
+}
+.gr{
+    position: absolute;
+    top: 30px;
+}
+.un{
+    position:absolute;
+    left: 20px;
+    top: 90px;
+}
+.tableau2{
+background:rgb(239, 239, 239);
+box-shadow: rgb(142, 142, 142) 10px 10px 10px 10px;
+border-radius:10px;
+width: 200px;
+height: 200px;
+position:absolute;
+left: 750px;
+top:215px;
+}
+.gre{
+    position: absolute;
+    top: 30px;
+}
+.une{
+    position:absolute;
+    left: 20px;
+    top: 90px;
+}
+.tableau3{
+background:rgb(239, 239, 239);
+box-shadow: rgb(142, 142, 142) 10px 10px 10px 10px;
+border-radius:10px;
+width: 200px;
+height: 200px;
+position:absolute;
+left: 300px;
+top:500px;
+}
+.gree{
+    position: absolute;
+    top: 30px;
+}
+.unee{
+    position:absolute;
+    left: 20px;
+    top: 90px;
+}
+.tableau4{
+background:rgb(239, 239, 239);
+box-shadow: rgb(142, 142, 142) 10px 10px 10px 10px;
+border-radius:10px;
+width: 200px;
+height: 200px;
+position:absolute;
+left: 750px;
+top:500px;
+}
+.gres{
+    position: absolute;
+    top: 30px;
+}
+.unes{
+    position:absolute;
+    left: 20px;
+    top: 90px;
+}
+.about{
+    text-align:center;
+    margin: 500px 0;
+    font-size: 30px;
+}
+.rond{
+    position: absolute;
+    top:1000px;
+    width:400px;
+    width:700px;
+    border-radius:0px 900px 900px 0px;
+}
+.padre{
+    position:absolute;
+    font-size:16px;
+    top:1000px;
+    left: 700px;
+}
+.padres{
+    position:absolute;
+    font-size:16px;
+    top:1100px;
+    left: 730px;
+}
+.padrese{
+    position:absolute;
+    font-size:16px;
+    top:1200px;
+    left: 730px;
+}
+.padress{
+    position:absolute;
+    font-size:16px;
+    top:1300px;
+    left: 700px;
+}
+.yout{
+    width:70px;
+    height:70px;
+    border:1px solid black;
+}
+.face{
+    width:70px;
+    height:70px;
+    border:1px solid black;
+}
+
+.tik{
+    width:70px;
+    height:70px;
+    border:1px solid black;
+}
+
+.inta{
+    width:70px;
+    height:70px;
+    border:1px solid black;
+}
+
+.twit{
+    width:70px;
+    height:70px;
+    border:1px solid black;
+}
+.logos img{
+   gap:10px;
+   margin: 30px;
+   border-radius:40px;
+}
+.tes{
+    font-size:20px;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+button {
+  background-color: #006F3F;
+  color: white;
+  padding: 12px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.footer{
+    background:#4C4C4C;
+    position:relative;
+    top:20px;
+    padding: 80px;
+}
+.foot{
+    width: 90px;
+    height:90px;
+       }
+.list a{
+    color:white;
+    text-decoration:none;
+}
+.ser{
+    position:absolute;
+    top: 70px;
+    left: 200px;
+}
+.ins{
+    position:absolute;
+    top: 120px;
+    left: 200px;
+}
+.abo{
+    position:absolute;
+    top: 170px;
+    left: 200px;
+}
+.con{
+    position:absolute;
+    top: 220px;
+    left: 200px;
+}
+.whats{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.youts{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.faces{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.tiks{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.intas{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.twits{
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+.logoss{
+    position:absolute;
+    top:80px;
+    left:600px;
+   }
+.list  :hover{
+    color:rgb(84, 84, 255);
+    text-decoration: underline;
+}
