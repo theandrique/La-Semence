@@ -7,6 +7,7 @@ body{
     align-items: center;
     background: #006F3F;
     padding: 10px;
+    flex-wrap: wrap;
 }
 .img{
     width: 50px;
@@ -35,7 +36,6 @@ body{
     width: 100%;
     height: 500px;
     position: relative;
-    
 }
 .im1{
     width: 100px;
@@ -68,89 +68,49 @@ body{
 P{
     text-align: center;
     font-size:20px;
-    }
+}
 h2{
     font-size:16px;
     text-align:center;
 }
-.tableau1{
-background:rgb(239, 239, 239);
-box-shadow: rgb(142, 142, 142) 10px 10px 10px 10px;
-border-radius:10px;
-width: 200px;
-height: 200px;
-position:relative;
-left: 300px;
-top:30px;
+.tableau1,
+.tableau2,
+.tableau3,
+.tableau4 {
+    background:rgb(239, 239, 239);
+    box-shadow: rgb(142, 142, 142) 10px 10px 10px 10px;
+    border-radius:10px;
+    width: 200px;
+    height: 200px;
+    position:absolute;
+}
+.tableau1 {
+    left: 300px;
+    top:30px;
+}
+.tableau2 {
+    left: 750px;
+    top:725px;
+}
+.tableau3 {
+    left: 300px;
+    top:1000px;
+}
+.tableau4 {
+    left: 750px;
+    top:1000px;
 }
 .i1{
-width:50px;
-height: 50px;
-border-radius:30px;
-margin:10px;
+    width:50px;
+    height: 50px;
+    border-radius:30px;
+    margin:10px;
 }
-.gr{
+.gr, .gre, .gree, .gres{
     position: absolute;
     top: 30px;
 }
-.un{
-    position:absolute;
-    left: 20px;
-    top: 90px;
-}
-.tableau2{
-background:rgb(239, 239, 239);
-box-shadow: rgb(142, 142, 142) 10px 10px 10px 10px;
-border-radius:10px;
-width: 200px;
-height: 200px;
-position:absolute;
-left: 750px;
-top:725px;
-}
-.gre{
-    position: absolute;
-    top: 30px;
-}
-.une{
-    position:absolute;
-    left: 20px;
-    top: 90px;
-}
-.tableau3{
-background:rgb(239, 239, 239);
-box-shadow: rgb(142, 142, 142) 10px 10px 10px 10px;
-border-radius:10px;
-width: 200px;
-height: 200px;
-position:absolute;
-left: 300px;
-top:1000px;
-}
-.gree{
-    position: absolute;
-    top: 30px;
-}
-.unee{
-    position:absolute;
-    left: 20px;
-    top: 90px;
-}
-.tableau4{
-background:rgb(239, 239, 239);
-box-shadow: rgb(142, 142, 142) 10px 10px 10px 10px;
-border-radius:10px;
-width: 200px;
-height: 200px;
-position:absolute;
-left: 750px;
-top:1000px;
-}
-.gres{
-    position: absolute;
-    top: 30px;
-}
-.unes{
+.un, .une, .unee, .unes{
     position:absolute;
     left: 20px;
     top: 90px;
@@ -163,58 +123,18 @@ top:1000px;
 .rond{
     position: absolute;
     top:1500px;
-    width:400px;
     width:700px;
     border-radius:0px 900px 900px 0px;
 }
-.padre{
+.padre, .padres, .padrese, .padress{
     position:absolute;
     font-size:16px;
-    top:1500px;
-    left: 700px;
 }
-.padres{
-    position:absolute;
-    font-size:16px;
-    top:1600px;
-    left: 730px;
-}
-.padrese{
-    position:absolute;
-    font-size:16px;
-    top:1700px;
-    left: 730px;
-}
-.padress{
-    position:absolute;
-    font-size:16px;
-    top:1800px;
-    left: 700px;
-}
-.yout{
-    width:70px;
-    height:70px;
-    border:1px solid black;
-}
-.face{
-    width:70px;
-    height:70px;
-    border:1px solid black;
-}
-
-.tik{
-    width:70px;
-    height:70px;
-    border:1px solid black;
-}
-
-.inta{
-    width:70px;
-    height:70px;
-    border:1px solid black;
-}
-
-.twit{
+.padre { top:1500px; left: 700px; }
+.padres { top:1600px; left: 730px; }
+.padrese { top:1700px; left: 730px; }
+.padress { top:1800px; left: 700px; }
+.yout, .face, .tik, .inta, .twit {
     width:70px;
     height:70px;
     border:1px solid black;
@@ -228,39 +148,35 @@ top:1000px;
     font-size:20px;
 }
 .contact-form {
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
-
 .form-row {
-  display: flex;
-  gap: 10px;
+    display: flex;
+    gap: 10px;
 }
-
 input, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  font-family: sans-serif;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: sans-serif;
 }
-
 textarea {
-  resize: vertical;
-  height: 120px;
+    resize: vertical;
+    height: 120px;
 }
-
 button {
-  background-color: #006F3F;
-  color: white;
-  padding: 12px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  text-transform: uppercase;
+    background-color: #006F3F;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 .footer{
     background:#4C4C4C;
@@ -271,57 +187,20 @@ button {
 .foot{
     width: 90px;
     height:90px;
-       }
+}
 .list a{
     color:white;
     text-decoration:none;
 }
-.ser{
+.ser, .ins, .abo, .con {
     position:absolute;
-    top: 70px;
     left: 200px;
 }
-.ins{
-    position:absolute;
-    top: 120px;
-    left: 200px;
-}
-.abo{
-    position:absolute;
-    top: 170px;
-    left: 200px;
-}
-.con{
-    position:absolute;
-    top: 220px;
-    left: 200px;
-}
-.whats{
-    width:70px;
-    height:70px;
-    border-radius:40px;
-}
-.youts{
-    width:70px;
-    height:70px;
-    border-radius:40px;
-}
-.faces{
-    width:70px;
-    height:70px;
-    border-radius:40px;
-}
-.tiks{
-    width:70px;
-    height:70px;
-    border-radius:40px;
-}
-.intas{
-    width:70px;
-    height:70px;
-    border-radius:40px;
-}
-.twits{
+.ser { top: 70px; }
+.ins { top: 120px; }
+.abo { top: 170px; }
+.con { top: 220px; }
+.whats, .youts, .faces, .tiks, .intas, .twits {
     width:70px;
     height:70px;
     border-radius:40px;
@@ -330,15 +209,203 @@ button {
     position:absolute;
     top:80px;
     left:600px;
-   }
+}
 .list  :hover{
     color:rgb(84, 84, 255);
     text-decoration: underline;
 }
+
 /* Responsive adaptasyon */
+@media (max-width: 1200px) {
+    .tableau1, .tableau3 {
+        left: 50px;
+    }
+    .tableau2, .tableau4 {
+        left: 400px;
+    }
+    .rond, .padre, .padres, .padrese, .padress {
+        left: unset !important;
+        right: 0;
+        width: 90vw;
+        max-width: 700px;
+    }
+}
 @media (max-width: 1024px) {
-  .flex {
-    flex-direction: column;
-  }
+    .main-header {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .imgs {
+        height: 300px;
+    }
+    .im1 {
+        width: 80px;
+        height: 80px;
+        top: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .text {
+        left: 50%;
+        top: 200px;
+        transform: translateX(-50%);
+        font-size: 18px;
+    }
+    .btn {
+        top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 15px 40px;
+        font-size: 16px;
+    }
+    .tableau1, .tableau2, .tableau3, .tableau4 {
+        position: static;
+        margin: 20px auto;
+        display: block;
+    }
+    .about {
+        margin: 200px 0 80px 0;
+        font-size: 24px;
+    }
+    .rond,
+    .padre, .padres, .padrese, .padress {
+        position: static;
+        margin: 20px auto;
+        display: block;
+        width: 90vw;
+        max-width: 500px;
+    }
+    .logoss {
+        position: static;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .footer {
+        padding: 40px 10px;
+    }
+    .foot {
+        width: 70px;
+        height: 70px;
+    }
+    .form-row {
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .main-header {
+        padding: 5px 10px;
+    }
+    .nav-links a, .header-btn a {
+        margin: 10px 5px;
+        font-size: 14px;
+    }
+    .imgs {
+        height: 200px;
+    }
+    .im1 {
+        width: 60px;
+        height: 60px;
+        top: 80px;
+    }
+    .text {
+        top: 110px;
+        font-size: 14px;
+    }
+    .btn {
+        top: 150px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .tableau1, .tableau2, .tableau3, .tableau4 {
+        width: 95vw;
+        height: auto;
+        min-height: 120px;
+    }
+    .about {
+        margin: 100px 0 40px 0;
+        font-size: 18px;
+    }
+    .contact-form {
+        max-width: 98vw;
+        padding: 0 2vw;
+    }
+    .footer {
+        padding: 20px 5px;
+    }
+    .foot {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media (max-width: 480px) {
+    .main-header, .footer {
+        flex-direction: column;
+        padding: 5px 2px;
+    }
+    .main-header {
+        align-items: stretch;
+    }
+    .nav-links, .header-btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .imgs {
+        height: 120px;
+    }
+    .im1 {
+        width: 40px;
+        height: 40px;
+        top: 40px;
+    }
+    .text {
+        top: 70px;
+        font-size: 10px;
+    }
+    .btn {
+        top: 90px;
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+    .about {
+        font-size: 14px;
+        margin: 40px 0 20px 0;
+    }
+    .tableau1, .tableau2, .tableau3, .tableau4 {
+        min-height: 80px;
+        width: 98vw;
+        margin: 10px auto;
+    }
+    .contact-form {
+        max-width: 100vw;
+        padding: 0 1vw;
+        gap: 8px;
+    }
+    .form-row {
+        gap: 4px;
+    }
+    input, textarea, button {
+        font-size: 12px;
+    }
+    .foot {
+        width: 30px;
+        height: 30px;
+    }
+    .logoss img, .logos img,
+    .yout, .face, .tik, .inta, .twit,
+    .whats, .youts, .faces, .tiks, .intas, .twits {
+        width: 30px;
+        height: 30px;
+        margin: 3px;
+    }
 }
 
+/* Asire ke tout eleman yo pa depase kontenè yo */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
